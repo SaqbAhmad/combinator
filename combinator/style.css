@@ -1,0 +1,31 @@
+/* We want to select anchor tag which is inside a here all the anchor tag
+  which are inside ul will get selected.This is given below is descendent selector */
+ul li a{
+      color:black;
+      font-size: 30px;
+}
+/* We want to select that span which is inside span.*/
+section span{
+     color:blue;
+     font-size: 30px;
+}
+div span{
+     color:orange;
+     font-weight: bold;
+
+}
+/* Child combinator . We are selecting the imidiate
+  child of ol. */
+ol > li{
+    /* border-top: 5px solid green;*/
+    color: red;
+}
+/* Adjacent sibling combinator. h4 ke forward direction
+  me jo bhi para hoga vh adjacent siblings hoga. */
+h4+p{
+      color:green;
+}
+/* general sibling */
+h3~p{
+   color: blue;
+}
